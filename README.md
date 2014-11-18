@@ -67,6 +67,7 @@ Included service implementations
     - Harvest
     - Heroku
     - Instagram
+    - Jawbone UP
     - LinkedIn
     - Mailchimp
     - Microsoft
@@ -75,6 +76,7 @@ Included service implementations
     - Reddit
     - RunKeeper
     - SoundCloud
+    - Ustream
     - Vkontakte
     - Yammer
 - more to come!

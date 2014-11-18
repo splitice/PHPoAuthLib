@@ -26,6 +26,11 @@ class Google extends AbstractService
     // Google+
     const SCOPE_GPLUS_ME                    = 'https://www.googleapis.com/auth/plus.me';
     const SCOPE_GPLUS_LOGIN                 = 'https://www.googleapis.com/auth/plus.login';
+    const SCOPE_GPLUS_CIRCLES_READ          = 'https://www.googleapis.com/auth/plus.circles.read';
+    const SCOPE_GPLUS_CIRCLES_WRITE         = 'https://www.googleapis.com/auth/plus.circles.write';
+    const SCOPE_GPLUS_STREAM_READ           = 'https://www.googleapis.com/auth/plus.stream.read';
+    const SCOPE_GPLUS_STREAM_WRITE          = 'https://www.googleapis.com/auth/plus.stream.write';
+    const SCOPE_GPLUS_MEDIA                 = 'https://www.googleapis.com/auth/plus.media.upload';
 
     // Google Drive
     const SCOPE_DOCUMENTSLIST               = 'https://docs.google.com/feeds/';
@@ -57,6 +62,7 @@ class Google extends AbstractService
     const SCOPE_CONTACT                     = 'https://www.google.com/m8/feeds/';
     const SCOPE_CHROMEWEBSTORE              = 'https://www.googleapis.com/auth/chromewebstore.readonly';
     const SCOPE_GMAIL                       = 'https://mail.google.com/mail/feed/atom';
+    const SCOPE_GMAIL_IMAP_SMTP             = 'https://mail.google.com';
     const SCOPE_PICASAWEB                   = 'https://picasaweb.google.com/data/';
     const SCOPE_SITES                       = 'https://sites.google.com/feeds/';
     const SCOPE_URLSHORTENER                = 'https://www.googleapis.com/auth/urlshortener';
