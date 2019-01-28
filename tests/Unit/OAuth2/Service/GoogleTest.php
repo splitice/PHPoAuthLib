@@ -112,7 +112,7 @@ class GoogleTest extends \PHPUnit_Framework_TestCase
         );
 
         $this->assertSame(
-            'https://accounts.google.com/o/oauth2/token',
+            'https://oauth2.googleapis.com/token',
             $service->getAccessTokenEndpoint()->getAbsoluteUri()
         );
     }
