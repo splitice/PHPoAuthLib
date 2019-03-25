@@ -14,13 +14,13 @@
 
 namespace OAuth;
 
-use OAuth\Common\Service\ServiceInterface;
 use OAuth\Common\Consumer\CredentialsInterface;
-use OAuth\Common\Storage\TokenStorageInterface;
+use OAuth\Common\Exception\Exception;
 use OAuth\Common\Http\Client\ClientInterface;
 use OAuth\Common\Http\Client\StreamClient;
 use OAuth\Common\Http\Uri\UriInterface;
-use OAuth\Common\Exception\Exception;
+use OAuth\Common\Service\ServiceInterface;
+use OAuth\Common\Storage\TokenStorageInterface;
 use OAuth\OAuth1\Signature\Signature;
 
 class ServiceFactory
