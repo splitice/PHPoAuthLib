@@ -118,7 +118,7 @@ abstract class AbstractToken implements TokenInterface
 
     public function isExpired()
     {
-        return $this->getEndOfLife() !== TokenInterface::EOL_NEVER_EXPIRES
+        return $this->getEndOfLife() !== null && $this->getEndOfLife() !== TokenInterface::EOL_NEVER_EXPIRES
         && $this->getEndOfLife() !== TokenInterface::EOL_UNKNOWN
         && time() > $this->getEndOfLife();
     }
